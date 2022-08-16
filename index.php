@@ -45,6 +45,9 @@
   <div>
     The LED is currently OFF
   </div>
+  <div>
+    Note: The LED can also be turn on whenever the user press the pushbutton on the circuit
+  </div>
   <button type="button" class="btn btn-outline-primary btn-lg" data-mdb-ripple-color="dark">Turn-On</button>
 </div>
 
