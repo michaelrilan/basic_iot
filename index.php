@@ -12,7 +12,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="../basic_iot/css/style.css">
     <!-- Google Fonts Roboto -->
     <link
       rel="stylesheet"
@@ -22,42 +22,33 @@
     <link rel="stylesheet" href="css/mdb.min.css" />
   </head>
   <body>
-    <nav class="navbar">
-      <div class="navbar-container container">
-          <input type="checkbox" name="" id="">
-          <div class="hamburger-lines">
-              <span class="line line1"></span>
-              <span class="line line2"></span>
-              <span class="line line3"></span>
-          </div>
-          <ul class="menu-items">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Circuit Demo</a></li>
-          </ul>
-          <h1 class="logo">Basic IOT</h1>
-      </div>
-  </nav>
   <div class="container text-center padds" data-mdb-ripple-color="light">
   <img
-  src="/img/lights_off.png"
+  src="../basic_iot/img/lights_off.png"
   class="img-fluid hover-shadow"
   alt="lights_off"/>
-  <div>
+  <div class="container padds">
     The LED is currently OFF
   </div>
-  <div>
-    Note: The LED can also be turn on whenever the user press the pushbutton on the circuit
+  <div class="container">
+    <p><b> Note:</b> The LED can also be turn on whenever the user press the pushbutton on the circuit</p> 
   </div>
-  <button type="button" class="btn btn-outline-primary btn-lg" data-mdb-ripple-color="dark">Turn-On</button>
+
+  <div class="container">
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" />
+      <label class="form-check-label" for="inlineRadio1">Lights-OFF</label>
+    </div>
+
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" />
+      <label class="form-check-label" for="inlineRadio2">Lights-ON</label>
+    </div>
+  </div>
+  
+
+
 </div>
-
-    
-
-
-
-
-
-
 
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <!-- Custom scripts -->
