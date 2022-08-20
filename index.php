@@ -35,15 +35,20 @@
   </div>
 
   <div class="container">
+    <form action="" method = "POST">
     <div class="form-check form-check-inline">
-      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" />
+      <input class="form-check-input" type="radio" name="off" id="inlineRadio1" value="0" />
       <label class="form-check-label" for="inlineRadio1">Lights-OFF</label>
     </div>
 
     <div class="form-check form-check-inline">
-      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" />
+      <input class="form-check-input" type="radio" name="on" id="inlineRadio2" value="1" />
       <label class="form-check-label" for="inlineRadio2">Lights-ON</label>
     </div>
+
+
+    </form>
+ 
   </div>
   
 
