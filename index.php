@@ -35,7 +35,7 @@
   </div>
 
   <div class="container">
-    <form action="" method = "POST">
+    <form method = "POST" enctyp = "multipart/form-data">
     <div class="form-check form-check-inline">
       <input class="form-check-input" type="radio" name="off" id="inlineRadio1" value="0" />
       <label class="form-check-label" for="inlineRadio1">Lights-OFF</label>
@@ -54,9 +54,10 @@
 
 
 </div>
-
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <!-- Custom scripts -->
     <script type="text/javascript" src = "js/"></script>
+
+
   </body>
 </html>
