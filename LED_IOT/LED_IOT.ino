@@ -67,7 +67,7 @@ void loop() {
     HTTPClient https;
     String data_to_send = "id=1";
     Serial.print("[HTTPS] begin...\n");
-    https.begin(*client, "https://iotledzxc.000webhostapp.com/esp32_update.php");   // HTTPS
+    https.begin(*client, "https://iotledzxc.000webhostapp.com/esp8266_update.php");   // HTTPS
     https.addHeader("Content-Type", "application/x-www-form-urlencoded");
       Serial.print("[HTTPS] POST...\n");
       // start connection and send HTTP header
